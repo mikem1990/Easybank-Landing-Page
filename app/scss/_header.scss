@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    z-index: 1;
 
     // hamburger open styles
     &.open {
@@ -75,8 +77,6 @@
         margin-top: 1.5rem;
         padding: 1.625rem;
         border-radius: 5px;
-       
-
 
         a{
             display: block;
